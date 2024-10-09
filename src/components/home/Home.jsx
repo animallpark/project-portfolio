@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from "../../assets/IMG_20240418_184938_642.jpg"
 import "./home.css"
 import { Link } from "react-scroll"
-import pdf from "../../../public/my-resume1.pdf"
+import pdf from "/my-resume1.pdf"
 import { download } from 'express/lib/response'
 
 function Home() {
