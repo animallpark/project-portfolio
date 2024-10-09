@@ -1,0 +1,118 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+  align-items: center;
+  height: 70px;
+  /* border: 1px solid black; */
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar p3:hover {
+  background: linear-gradient(270deg, #42E695 30%, #3bb2b8 70%);
+  background-clip: text;
+  cursor: pointer;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar ul1 {
+  font-size: 26px;
+  font-weight: 500;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 520; */
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 30px;
+  background-image: linear-gradient(270deg, #DF8908 -5.09%, #B415FF 106.28%);
+  border-width: 8px;
+  padding: 10px 10px;
+}
+
+.n-contact {
+  color: white;
+  cursor: pointer;
+  /* background-image: black; */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* cursor: pointer; */
+}
+
+.option {
+  padding: 10px 13px;
+  border-radius: 5px;
+  border-color: #B415FF;
+}
+
+.option:hover {
+  cursor: pointer;
+  border: 2.5px solid #B415FF;
+}
+
+.nav-home {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.nav-about {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.nav-skills {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.nav-projects {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+@media (max-width: 859px) {
+  .navbar ul1 {
+    font-size: 20px;
+  }
+
+  .menu {
+    gap: 10px;
+    font-size: 20px;
+  }
+
+  .option {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border-color: #B415FF;
+  }
+
+  .navbar {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 615px) {}
